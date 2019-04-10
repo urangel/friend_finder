@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Survey</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Questions</h1>
+                <hr>
+                <h2>About You</h2>
+                    <form>
+                        <div class="form-group">
+                          <label for="name">Name</label>
+                          <small id="required" class="form-text text-muted">(Required)</small>
+                          <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                          <label for="photo">Link to photo</label>
+                          <small id="required" class="form-text text-muted">(Required)</small>
+                          <input type="text" class="form-control" id="photo">
+                        </div>
+                    </form>
+                    <div>
+                        <h2>Statement 1</h2>
+                        <h5>I would rather be taking a bath right now...</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q1">
+                            <option selected>Choose...</option>
+                            <option value="1">One (strongly disagree)</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five (strongly agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Statement 2</h2>
+                        <h5>Caterpie is the best pokemon!</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q2">
+                            <option selected>Choose...</option>
+                            <option value="1">One (strongly disagree)</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three (I don't understand the question...)</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five (strongly agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Statement 3</h2>
+                        <h5>Apple sauce is better without cinnamon.</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q3">
+                            <option selected>Choose...</option>
+                            <option value="1">One (strongly disagree)</option>`
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five (strongly agree) </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Statement 4</h2>
+                        <h5>I love singing in the shower!</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q4">
+                            <option selected>Choose...</option>
+                            <option value="1">One (do)</option>
+                            <option value="2">Two (re)</option>
+                            <option value="3">Three (mi)</option>
+                            <option value="4">Four (fa)</option>
+                            <option value="5">Five (so)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Statement 5</h2>
+                        <h5>Memes rule</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q5">
+                            <option selected>Choose...</option>
+                            <option value="1">One (strongly disagree)</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five (Oh boy! I love memes!)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Statement 6</h2>
+                        <h5>Manga is better than anime.</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q6">
+                            <option selected>Choose...</option>
+                            <option value="1">One (is reading subs anyway)</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five (strongly weeb)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Statement 7</h2>
+                        <h5>Mosquitoes shouldn't exist.</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q7">
+                            <option selected>Choose...</option>
+                            <option value="1">One (What's wrong with you??)</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five (I can get behind that)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Statement 8</h2>
+                        <h5>Cats are better than dogs.</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q8">
+                            <option selected>Choose...</option>
+                            <option value="1">One (Woof!)</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five (Meow!)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Statement 9</h2>
+                        <h5>Teleporting is better than telepathy</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q9">
+                            <option selected>Choose...</option>
+                            <option value="1">One (strongly disagree)</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five (strongly agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Statement 10</h2>
+                        <h5>Let's keep moving.</h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <label class="input-group-text">Options</label>
+                            </div>
+                            <select class="custom-select" id="q10">
+                            <option selected>Choose...</option>
+                            <option value="1">One (strongly disagree)</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five (strongly agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type = "submit" class="btn btn-secondary" id = "submit">Submit</button>
+                </div>
+        </div>
+    </div>
+    <div class="modal fade" id="friendMatchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Here's your new bestie!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Friend info goes here -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>Your matched friend is: </p>
+                                <p id="friendName"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <img id="friendImage">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button id = "tryAgain" type="button" class="btn btn-secondary" data-dismiss="modal">Try again</button>
+                    <!-- <button id = "home" type="button" class="btn btn-secondary" data-dismiss="modal">Home</button> -->
+                    <h6>Have fun!</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+    $("#submit").on("click", function(e){
+        e.preventDefault();
+        let newFriend = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores:[
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val()
+            ]
+        };
+
+        $.post("api/friends", newFriend)
+            .then(function(data){
+                $("#friendName").text(data.name);
+                $("#friendImage").attr("src", data.photo);
+                $("#friendMatchModal").modal("toggle");
+            });
+
+    });
+
+    $("#tryAgain").on("click", function(e){
+        e.preventDefault();
+
+        $("#name").val(""),
+        $("#photo").val(""),
+        $("#q1").prop('selectedIndex',0),
+        $("#q2").prop('selectedIndex',0),
+        $("#q3").prop('selectedIndex',0),
+        $("#q4").prop('selectedIndex',0),
+        $("#q5").prop('selectedIndex',0),
+        $("#q6").prop('selectedIndex',0),
+        $("#q7").prop('selectedIndex',0),
+        $("#q8").prop('selectedIndex',0),
+        $("#q9").prop('selectedIndex',0),
+        $("#q10").prop('selectedIndex',0)
+
+    });
+
+    // $("#home").on("click", function(e){
+    //     e.preventDefault();
+        
+    //     $.get("/", function(data){
+    //         console.log(data);
+    //     });
+    // });
+
+</script>
+</body>
+</html>
